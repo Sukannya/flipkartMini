@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50561" started-at="2020-07-30T14:42:50Z" finished-at="2020-07-30T14:43:41Z">
+    <groups>
+      <group name="regression">
+        <method signature="FlipkartTestClass.DisplayTotalamount()[pri:10, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="DisplayTotalamount" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.ScreenshotTest()[pri:11, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="ScreenshotTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addACtest()[pri:9, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addACtest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addFirstTvTest()[pri:5, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addFirstTvTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addSecondTvTest()[pri:6, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addSecondTvTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.displayFirstAmount()[pri:7, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="displayFirstAmount" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchAcTest()[pri:8, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchAcTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchTVtest()[pri:4, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchTVtest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FlipkartTestClass.HeadImageTest()[pri:3, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="HeadImageTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.loginTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="loginTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchBarTest()[pri:2, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchBarTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.titileTest()[pri:1, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="titileTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="50561" started-at="2020-07-30T14:42:50Z" finished-at="2020-07-30T14:43:41Z">
+      <class name="MiniProject.Flipkart.com.FlipkartTestClass">
+        <test-method status="PASS" signature="driverInvokeTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="driverInvokeTest" is-config="true" duration-ms="12384" started-at="2020-07-30T14:42:38Z" finished-at="2020-07-30T14:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInvokeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="loginTest" duration-ms="2550" started-at="2020-07-30T14:42:50Z" finished-at="2020-07-30T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="titileTest()[pri:1, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="titileTest" duration-ms="10" started-at="2020-07-30T14:42:53Z" finished-at="2020-07-30T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titileTest -->
+        <test-method status="PASS" signature="searchBarTest()[pri:2, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchBarTest" duration-ms="121" started-at="2020-07-30T14:42:53Z" finished-at="2020-07-30T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest -->
+        <test-method status="PASS" signature="HeadImageTest()[pri:3, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="HeadImageTest" duration-ms="85" started-at="2020-07-30T14:42:53Z" finished-at="2020-07-30T14:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeadImageTest -->
+        <test-method status="PASS" signature="searchTVtest()[pri:4, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchTVtest" duration-ms="6093" started-at="2020-07-30T14:42:53Z" finished-at="2020-07-30T14:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTVtest -->
+        <test-method status="PASS" signature="addFirstTvTest()[pri:5, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addFirstTvTest" duration-ms="15213" started-at="2020-07-30T14:42:59Z" finished-at="2020-07-30T14:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstTvTest -->
+        <test-method status="PASS" signature="addSecondTvTest()[pri:6, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addSecondTvTest" duration-ms="10391" started-at="2020-07-30T14:43:15Z" finished-at="2020-07-30T14:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondTvTest -->
+        <test-method status="PASS" signature="displayFirstAmount()[pri:7, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="displayFirstAmount" duration-ms="451" started-at="2020-07-30T14:43:25Z" finished-at="2020-07-30T14:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayFirstAmount -->
+        <test-method status="PASS" signature="searchAcTest()[pri:8, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="searchAcTest" duration-ms="2577" started-at="2020-07-30T14:43:25Z" finished-at="2020-07-30T14:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAcTest -->
+        <test-method status="PASS" signature="addACtest()[pri:9, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="addACtest" duration-ms="7342" started-at="2020-07-30T14:43:28Z" finished-at="2020-07-30T14:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addACtest -->
+        <test-method status="FAIL" signature="DisplayTotalamount()[pri:10, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="DisplayTotalamount" duration-ms="5092" started-at="2020-07-30T14:43:35Z" finished-at="2020-07-30T14:43:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2cd4919bbf9838bb3633a3852c55503a
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2cd4919bbf9838bb3633a3852c55503a
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[3]/div/span/div/div}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at AddAppliance.AddAppliances.displayTotalAmount(AddAppliances.java:127)
+at MiniProject.Flipkart.com.FlipkartTestClass.DisplayTotalamount(FlipkartTestClass.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayTotalamount -->
+        <test-method status="PASS" signature="ScreenshotTest()[pri:11, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="ScreenshotTest" duration-ms="521" started-at="2020-07-30T14:43:40Z" finished-at="2020-07-30T14:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@15bb6bea]" name="closebrowser" is-config="true" duration-ms="924" started-at="2020-07-30T14:43:41Z" finished-at="2020-07-30T14:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- MiniProject.Flipkart.com.FlipkartTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="8088" started-at="2020-07-30T14:43:50Z" finished-at="2020-07-30T14:43:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8088" started-at="2020-07-30T14:43:50Z" finished-at="2020-07-30T14:43:58Z">
+      <class name="MiniProject.Flipkart.com.NegetiveTest">
+        <test-method status="PASS" signature="driverInvokeTest()[pri:0, instance:MiniProject.Flipkart.com.NegetiveTest@2890c451]" name="driverInvokeTest" is-config="true" duration-ms="7917" started-at="2020-07-30T14:43:42Z" finished-at="2020-07-30T14:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInvokeTest -->
+        <test-method status="FAIL" signature="LoginTest()[pri:1, instance:MiniProject.Flipkart.com.NegetiveTest@2890c451]" name="LoginTest" duration-ms="5655" started-at="2020-07-30T14:43:50Z" finished-at="2020-07-30T14:43:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/span[2]/span"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6ec93825cc90f374718070d54f8ab36b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/span[2]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/span[2]/span"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6ec93825cc90f374718070d54f8ab36b
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/span[2]/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at MiniProject.Flipkart.com.loginPage.LoginByCredentials(loginPage.java:35)
+at MiniProject.Flipkart.com.NegetiveTest.LoginTest(NegetiveTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="validlogin()[pri:2, instance:MiniProject.Flipkart.com.NegetiveTest@2890c451]" name="validlogin" duration-ms="2226" started-at="2020-07-30T14:43:55Z" finished-at="2020-07-30T14:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method status="FAIL" signature="searchItemTest()[pri:3, instance:MiniProject.Flipkart.com.NegetiveTest@2890c451]" name="searchItemTest" duration-ms="202" started-at="2020-07-30T14:43:58Z" finished-at="2020-07-30T14:43:58Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#dress"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6ec93825cc90f374718070d54f8ab36b
+*** Element info: {Using=id, value=dress}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dress"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GP6I1F7', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SUKANNYA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6ec93825cc90f374718070d54f8ab36b
+*** Element info: {Using=id, value=dress}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at AddAppliance.AddAppliances.searchWrong(AddAppliances.java:45)
+at MiniProject.Flipkart.com.NegetiveTest.searchItemTest(NegetiveTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemTest -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:MiniProject.Flipkart.com.NegetiveTest@2890c451]" name="CloseBrowser" is-config="true" duration-ms="208" started-at="2020-07-30T14:43:58Z" finished-at="2020-07-30T14:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- MiniProject.Flipkart.com.NegetiveTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43782" started-at="2020-07-30T14:07:56Z" finished-at="2020-07-30T14:08:39Z">
+    <groups>
+      <group name="regression">
+        <method signature="FlipkartTestClass.DisplayTotalamount()[pri:10, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="DisplayTotalamount" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.ScreenshotTest()[pri:11, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="ScreenshotTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addACtest()[pri:9, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addACtest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addFirstTvTest()[pri:5, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addFirstTvTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.addSecondTvTest()[pri:6, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addSecondTvTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.displayFirstAmount()[pri:7, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="displayFirstAmount" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchAcTest()[pri:8, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchAcTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchTVtest()[pri:4, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchTVtest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FlipkartTestClass.HeadImageTest()[pri:3, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="HeadImageTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.loginTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="loginTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.searchBarTest()[pri:2, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchBarTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+        <method signature="FlipkartTestClass.titileTest()[pri:1, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="titileTest" class="MiniProject.Flipkart.com.FlipkartTestClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="43782" started-at="2020-07-30T14:07:56Z" finished-at="2020-07-30T14:08:39Z">
+      <class name="MiniProject.Flipkart.com.FlipkartTestClass">
+        <test-method status="PASS" signature="driverInvokeTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="driverInvokeTest" is-config="true" duration-ms="8203" started-at="2020-07-30T14:07:47Z" finished-at="2020-07-30T14:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInvokeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="loginTest" duration-ms="2423" started-at="2020-07-30T14:07:56Z" finished-at="2020-07-30T14:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="titileTest()[pri:1, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="titileTest" duration-ms="18" started-at="2020-07-30T14:07:58Z" finished-at="2020-07-30T14:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titileTest -->
+        <test-method status="PASS" signature="searchBarTest()[pri:2, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchBarTest" duration-ms="149" started-at="2020-07-30T14:07:58Z" finished-at="2020-07-30T14:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest -->
+        <test-method status="PASS" signature="HeadImageTest()[pri:3, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="HeadImageTest" duration-ms="82" started-at="2020-07-30T14:07:58Z" finished-at="2020-07-30T14:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeadImageTest -->
+        <test-method status="PASS" signature="searchTVtest()[pri:4, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchTVtest" duration-ms="5721" started-at="2020-07-30T14:07:58Z" finished-at="2020-07-30T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTVtest -->
+        <test-method status="PASS" signature="addFirstTvTest()[pri:5, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addFirstTvTest" duration-ms="14035" started-at="2020-07-30T14:08:04Z" finished-at="2020-07-30T14:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstTvTest -->
+        <test-method status="PASS" signature="addSecondTvTest()[pri:6, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addSecondTvTest" duration-ms="10460" started-at="2020-07-30T14:08:18Z" finished-at="2020-07-30T14:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondTvTest -->
+        <test-method status="PASS" signature="displayFirstAmount()[pri:7, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="displayFirstAmount" duration-ms="345" started-at="2020-07-30T14:08:29Z" finished-at="2020-07-30T14:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayFirstAmount -->
+        <test-method status="PASS" signature="searchAcTest()[pri:8, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="searchAcTest" duration-ms="2482" started-at="2020-07-30T14:08:29Z" finished-at="2020-07-30T14:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAcTest -->
+        <test-method status="PASS" signature="addACtest()[pri:9, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="addACtest" duration-ms="7352" started-at="2020-07-30T14:08:31Z" finished-at="2020-07-30T14:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addACtest -->
+        <test-method status="PASS" signature="DisplayTotalamount()[pri:10, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="DisplayTotalamount" duration-ms="157" started-at="2020-07-30T14:08:39Z" finished-at="2020-07-30T14:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayTotalamount -->
+        <test-method status="PASS" signature="ScreenshotTest()[pri:11, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="ScreenshotTest" duration-ms="453" started-at="2020-07-30T14:08:39Z" finished-at="2020-07-30T14:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:MiniProject.Flipkart.com.FlipkartTestClass@2f112965]" name="closebrowser" is-config="true" duration-ms="882" started-at="2020-07-30T14:08:39Z" finished-at="2020-07-30T14:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- MiniProject.Flipkart.com.FlipkartTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
